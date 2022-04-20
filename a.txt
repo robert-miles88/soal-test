@@ -1,0 +1,22 @@
+SQL QUERY 
+
+Table Parent
++----+------------------+
+| id | name             |
++----+------------------+
+| 1  | Parent_A         |
+| 2  | Parent_B         |
++----+------------------+
+
+Table Child
++----+-----------+------------------+
+| id | parent_id | name             |
++----+-----------+------------------+
+| 1  | 1         | child_A1         |
+| 2  | 1         | child_A2         |
+| 3  | 1         | child_A3         |
+| 4  | 2         | child_B1         |
+| 5  | 2         | child_B2         |
++----+-----------+------------------+
+
+Buat SQL QUERY untuk memasukkan data table Parent dengan name 'Parent_C' dan pada table Child dengan name 'child_C1'
